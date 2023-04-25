@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+color: aliceblue;
+background-color: rgb(0, 2, 45);
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  box-shadow: 2px 2px 30px 20px rgba(0, 0, 255, 0.2);;
+  height: 80px;
+ 
+}
+
+header > h1 {
+  color: #b9ffff
+}
+
+h1 > span {
+  color: rgb(255, 255, 255);
+}
+
+header .link {
+  display: flex;
+  gap: 30px;
+  
+}
+
+div > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+div > a:hover {
+  transition: 0.2s all;
+ color: #b9ffff;
+}
+
+.corpo {
+  border-top: .5px solid rgb(4, 0, 255);
+  margin-bottom: 48px;
+}
+
+.corpo-princi{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img {
+ padding: 50px;
+ height: 600px;
+ border-radius: 100%;
+ border: none;
+}
+
+div > h1 {
+  font-size: 100px;
+}
+
+div > h2 {
+  margin-top: -20px;
+  font-size: 23px;
+  font-weight: 200;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 200px;
+  font-size: 20px;
+  font-family: 'Pathway Extreme', sans-serif;
+  text-transform: uppercase;
+  background-color: #0048ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px 5px rgba(0, 72, 255, 0.758);
+  cursor: pointer;
+}
+
+button > a {
+  color: white;
+  text-decoration: none;
+}
+
+
+button:hover {
+  color: white;
+  transition: .3s all;
+  background-color: #0091ff;
+  box-shadow: 2px 2px 30px 10px rgba(0, 157, 255, 0.758);
+
+}
+
+.corpo-2{
+  background-color: transparent;
+  border-top: .3px solid rgb(4, 0, 255);
+  
+}
+
+.corpo2text{
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 2px 2px 30px 20px rgba(0, 0, 255, 0.2);
+  width: 1400px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 60px;
+  
+  
+
+}
+
+.img-sobre{
+  height: 500px;
+  border-radius: 10px;
+}
+
+.sobremim > p {
+  text-align: center;
+  font-size: 20px;
+  font-weight:100;
+  max-width: 10000px;
+}
+.sobremim > h1 {
+  font-weight: bolder;
+}
+
+.conteudo-footer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  margin-top: 40px;
+  
+}
+#fav {
+  
+  font-size: 50px;
+}
+
+
+
